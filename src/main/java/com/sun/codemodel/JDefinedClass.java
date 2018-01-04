@@ -787,6 +787,10 @@ public class JDefinedClass
         hideFile = true;
     }
 
+    public void show() {
+        hideFile = false;
+    }
+    
     public boolean isHidden() {
         return hideFile;
     }
